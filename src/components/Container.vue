@@ -264,9 +264,6 @@ input:focus{
 
 /* COMPASS */
 #demo svg{
-    /* margin-top: 40px; */
-    /* margin-bottom: 40px; */
-    /* transform: scale(1.8); */
     fill: #11998e;
     fill: snow;
 }
@@ -274,17 +271,20 @@ input:focus{
 #demo{
     display: flex;
     border: 1px solid rgba(255,200,180,0.5);
-    /* margin-left: 10%; */
     margin-top: 38px;
     flex-direction: column;
-    /* margin-right: 10%; */
 }
 
 @media screen and (min-width: 780px) {
     #demo{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    #demo{
         margin-left: 10%;
         margin-right: 10%;
-        flex-direction: row;
     }
 }
 
